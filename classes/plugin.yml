@@ -1,0 +1,17 @@
+name: TeleportPlugin
+version: 1.0
+main: com.example.teleport.TeleportPlugin
+api-version: 1.21
+commands:
+  tpi:
+    description: Send a teleport request to the specified player
+    usage: /tpi <player>
+  tpc:
+    description: Invite the specified player to your location
+    usage: /tpc <player>
+  tpa:
+    description: Accept the most recent request
+    usage: /tpa
+  tpd:
+    description: Decline the most recent request
+    usage: /tpd
